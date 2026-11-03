@@ -1,0 +1,99 @@
+default: Thanks - I have noted your question. [PLACEHOLDER default answer]
+escalation: I want to make sure you get the right answer, so I'm passing this to a support agent.
+intents:
+  Refund_not_showing_up: 'It looks like your question is about: Refund not showing up. [PLACEHOLDER resolution flow for ''Refund_not_showing_up'' - link the help-centre article / in-app action here.]'
+  activate_my_card: 'It looks like your question is about: activate my card. [PLACEHOLDER resolution flow for ''activate_my_card'' - link the help-centre article / in-app action here.]'
+  age_limit: 'It looks like your question is about: age limit. [PLACEHOLDER resolution flow for ''age_limit'' - link the help-centre article / in-app action here.]'
+  apple_pay_or_google_pay: 'It looks like your question is about: apple pay or google pay. [PLACEHOLDER resolution flow for ''apple_pay_or_google_pay'' - link the help-centre article / in-app action here.]'
+  atm_support: 'It looks like your question is about: atm support. [PLACEHOLDER resolution flow for ''atm_support'' - link the help-centre article / in-app action here.]'
+  automatic_top_up: 'It looks like your question is about: automatic top up. [PLACEHOLDER resolution flow for ''automatic_top_up'' - link the help-centre article / in-app action here.]'
+  balance_not_updated_after_bank_transfer: 'It looks like your question is about: balance not updated after bank transfer. [PLACEHOLDER resolution flow for ''balance_not_updated_after_bank_transfer'' -
+    link the help-centre article / in-app action here.]'
+  balance_not_updated_after_cheque_or_cash_deposit: 'It looks like your question is about: balance not updated after cheque or cash deposit. [PLACEHOLDER resolution flow for ''balance_not_updated_after_cheque_or_cash_deposit''
+    - link the help-centre article / in-app action here.]'
+  beneficiary_not_allowed: 'It looks like your question is about: beneficiary not allowed. [PLACEHOLDER resolution flow for ''beneficiary_not_allowed'' - link the help-centre article / in-app action here.]'
+  cancel_transfer: 'It looks like your question is about: cancel transfer. [PLACEHOLDER resolution flow for ''cancel_transfer'' - link the help-centre article / in-app action here.]'
+  card_about_to_expire: 'It looks like your question is about: card about to expire. [PLACEHOLDER resolution flow for ''card_about_to_expire'' - link the help-centre article / in-app action here.]'
+  card_acceptance: 'It looks like your question is about: card acceptance. [PLACEHOLDER resolution flow for ''card_acceptance'' - link the help-centre article / in-app action here.]'
+  card_arrival: 'It looks like your question is about: card arrival. [PLACEHOLDER resolution flow for ''card_arrival'' - link the help-centre article / in-app action here.]'
+  card_delivery_estimate: 'It looks like your question is about: card delivery estimate. [PLACEHOLDER resolution flow for ''card_delivery_estimate'' - link the help-centre article / in-app action here.]'
+  card_linking: 'It looks like your question is about: card linking. [PLACEHOLDER resolution flow for ''card_linking'' - link the help-centre article / in-app action here.]'
+  card_not_working: 'It looks like your question is about: card not working. [PLACEHOLDER resolution flow for ''card_not_working'' - link the help-centre article / in-app action here.]'
+  card_payment_fee_charged: 'It looks like your question is about: card payment fee charged. [PLACEHOLDER resolution flow for ''card_payment_fee_charged'' - link the help-centre article / in-app action
+    here.]'
+  card_payment_not_recognised: 'It looks like your question is about: card payment not recognised. [PLACEHOLDER resolution flow for ''card_payment_not_recognised'' - link the help-centre article / in-app
+    action here.]'
+  card_payment_wrong_exchange_rate: 'It looks like your question is about: card payment wrong exchange rate. [PLACEHOLDER resolution flow for ''card_payment_wrong_exchange_rate'' - link the help-centre
+    article / in-app action here.]'
+  card_swallowed: 'It looks like your question is about: card swallowed. [PLACEHOLDER resolution flow for ''card_swallowed'' - link the help-centre article / in-app action here.]'
+  cash_withdrawal_charge: 'It looks like your question is about: cash withdrawal charge. [PLACEHOLDER resolution flow for ''cash_withdrawal_charge'' - link the help-centre article / in-app action here.]'
+  cash_withdrawal_not_recognised: 'It looks like your question is about: cash withdrawal not recognised. [PLACEHOLDER resolution flow for ''cash_withdrawal_not_recognised'' - link the help-centre article
+    / in-app action here.]'
+  change_pin: 'It looks like your question is about: change pin. [PLACEHOLDER resolution flow for ''change_pin'' - link the help-centre article / in-app action here.]'
+  compromised_card: 'It looks like your question is about: compromised card. [PLACEHOLDER resolution flow for ''compromised_card'' - link the help-centre article / in-app action here.]'
+  contactless_not_working: 'It looks like your question is about: contactless not working. [PLACEHOLDER resolution flow for ''contactless_not_working'' - link the help-centre article / in-app action here.]'
+  country_support: 'It looks like your question is about: country support. [PLACEHOLDER resolution flow for ''country_support'' - link the help-centre article / in-app action here.]'
+  declined_card_payment: 'It looks like your question is about: declined card payment. [PLACEHOLDER resolution flow for ''declined_card_payment'' - link the help-centre article / in-app action here.]'
+  declined_cash_withdrawal: 'It looks like your question is about: declined cash withdrawal. [PLACEHOLDER resolution flow for ''declined_cash_withdrawal'' - link the help-centre article / in-app action
+    here.]'
+  declined_transfer: 'It looks like your question is about: declined transfer. [PLACEHOLDER resolution flow for ''declined_transfer'' - link the help-centre article / in-app action here.]'
+  direct_debit_payment_not_recognised: 'It looks like your question is about: direct debit payment not recognised. [PLACEHOLDER resolution flow for ''direct_debit_payment_not_recognised'' - link the help-centre
+    article / in-app action here.]'
+  disposable_card_limits: 'It looks like your question is about: disposable card limits. [PLACEHOLDER resolution flow for ''disposable_card_limits'' - link the help-centre article / in-app action here.]'
+  edit_personal_details: 'It looks like your question is about: edit personal details. [PLACEHOLDER resolution flow for ''edit_personal_details'' - link the help-centre article / in-app action here.]'
+  exchange_charge: 'It looks like your question is about: exchange charge. [PLACEHOLDER resolution flow for ''exchange_charge'' - link the help-centre article / in-app action here.]'
+  exchange_rate: 'It looks like your question is about: exchange rate. [PLACEHOLDER resolution flow for ''exchange_rate'' - link the help-centre article / in-app action here.]'
+  exchange_via_app: 'It looks like your question is about: exchange via app. [PLACEHOLDER resolution flow for ''exchange_via_app'' - link the help-centre article / in-app action here.]'
+  extra_charge_on_statement: 'It looks like your question is about: extra charge on statement. [PLACEHOLDER resolution flow for ''extra_charge_on_statement'' - link the help-centre article / in-app action
+    here.]'
+  failed_transfer: 'It looks like your question is about: failed transfer. [PLACEHOLDER resolution flow for ''failed_transfer'' - link the help-centre article / in-app action here.]'
+  fiat_currency_support: 'It looks like your question is about: fiat currency support. [PLACEHOLDER resolution flow for ''fiat_currency_support'' - link the help-centre article / in-app action here.]'
+  get_disposable_virtual_card: 'It looks like your question is about: get disposable virtual card. [PLACEHOLDER resolution flow for ''get_disposable_virtual_card'' - link the help-centre article / in-app
+    action here.]'
+  get_physical_card: 'It looks like your question is about: get physical card. [PLACEHOLDER resolution flow for ''get_physical_card'' - link the help-centre article / in-app action here.]'
+  getting_spare_card: 'It looks like your question is about: getting spare card. [PLACEHOLDER resolution flow for ''getting_spare_card'' - link the help-centre article / in-app action here.]'
+  getting_virtual_card: 'It looks like your question is about: getting virtual card. [PLACEHOLDER resolution flow for ''getting_virtual_card'' - link the help-centre article / in-app action here.]'
+  lost_or_stolen_card: 'It looks like your question is about: lost or stolen card. [PLACEHOLDER resolution flow for ''lost_or_stolen_card'' - link the help-centre article / in-app action here.]'
+  lost_or_stolen_phone: 'It looks like your question is about: lost or stolen phone. [PLACEHOLDER resolution flow for ''lost_or_stolen_phone'' - link the help-centre article / in-app action here.]'
+  order_physical_card: 'It looks like your question is about: order physical card. [PLACEHOLDER resolution flow for ''order_physical_card'' - link the help-centre article / in-app action here.]'
+  passcode_forgotten: 'It looks like your question is about: passcode forgotten. [PLACEHOLDER resolution flow for ''passcode_forgotten'' - link the help-centre article / in-app action here.]'
+  pending_card_payment: 'It looks like your question is about: pending card payment. [PLACEHOLDER resolution flow for ''pending_card_payment'' - link the help-centre article / in-app action here.]'
+  pending_cash_withdrawal: 'It looks like your question is about: pending cash withdrawal. [PLACEHOLDER resolution flow for ''pending_cash_withdrawal'' - link the help-centre article / in-app action here.]'
+  pending_top_up: 'It looks like your question is about: pending top up. [PLACEHOLDER resolution flow for ''pending_top_up'' - link the help-centre article / in-app action here.]'
+  pending_transfer: 'It looks like your question is about: pending transfer. [PLACEHOLDER resolution flow for ''pending_transfer'' - link the help-centre article / in-app action here.]'
+  pin_blocked: 'It looks like your question is about: pin blocked. [PLACEHOLDER resolution flow for ''pin_blocked'' - link the help-centre article / in-app action here.]'
+  receiving_money: 'It looks like your question is about: receiving money. [PLACEHOLDER resolution flow for ''receiving_money'' - link the help-centre article / in-app action here.]'
+  request_refund: 'It looks like your question is about: request refund. [PLACEHOLDER resolution flow for ''request_refund'' - link the help-centre article / in-app action here.]'
+  reverted_card_payment?: 'It looks like your question is about: reverted card payment. [PLACEHOLDER resolution flow for ''reverted_card_payment?'' - link the help-centre article / in-app action here.]'
+  supported_cards_and_currencies: 'It looks like your question is about: supported cards and currencies. [PLACEHOLDER resolution flow for ''supported_cards_and_currencies'' - link the help-centre article
+    / in-app action here.]'
+  terminate_account: 'It looks like your question is about: terminate account. [PLACEHOLDER resolution flow for ''terminate_account'' - link the help-centre article / in-app action here.]'
+  top_up_by_bank_transfer_charge: 'It looks like your question is about: top up by bank transfer charge. [PLACEHOLDER resolution flow for ''top_up_by_bank_transfer_charge'' - link the help-centre article
+    / in-app action here.]'
+  top_up_by_card_charge: 'It looks like your question is about: top up by card charge. [PLACEHOLDER resolution flow for ''top_up_by_card_charge'' - link the help-centre article / in-app action here.]'
+  top_up_by_cash_or_cheque: 'It looks like your question is about: top up by cash or cheque. [PLACEHOLDER resolution flow for ''top_up_by_cash_or_cheque'' - link the help-centre article / in-app action
+    here.]'
+  top_up_failed: 'It looks like your question is about: top up failed. [PLACEHOLDER resolution flow for ''top_up_failed'' - link the help-centre article / in-app action here.]'
+  top_up_limits: 'It looks like your question is about: top up limits. [PLACEHOLDER resolution flow for ''top_up_limits'' - link the help-centre article / in-app action here.]'
+  top_up_reverted: 'It looks like your question is about: top up reverted. [PLACEHOLDER resolution flow for ''top_up_reverted'' - link the help-centre article / in-app action here.]'
+  topping_up_by_card: 'It looks like your question is about: topping up by card. [PLACEHOLDER resolution flow for ''topping_up_by_card'' - link the help-centre article / in-app action here.]'
+  transaction_charged_twice: 'It looks like your question is about: transaction charged twice. [PLACEHOLDER resolution flow for ''transaction_charged_twice'' - link the help-centre article / in-app action
+    here.]'
+  transfer_fee_charged: 'It looks like your question is about: transfer fee charged. [PLACEHOLDER resolution flow for ''transfer_fee_charged'' - link the help-centre article / in-app action here.]'
+  transfer_into_account: 'It looks like your question is about: transfer into account. [PLACEHOLDER resolution flow for ''transfer_into_account'' - link the help-centre article / in-app action here.]'
+  transfer_not_received_by_recipient: 'It looks like your question is about: transfer not received by recipient. [PLACEHOLDER resolution flow for ''transfer_not_received_by_recipient'' - link the help-centre
+    article / in-app action here.]'
+  transfer_timing: 'It looks like your question is about: transfer timing. [PLACEHOLDER resolution flow for ''transfer_timing'' - link the help-centre article / in-app action here.]'
+  unable_to_verify_identity: 'It looks like your question is about: unable to verify identity. [PLACEHOLDER resolution flow for ''unable_to_verify_identity'' - link the help-centre article / in-app action
+    here.]'
+  verify_my_identity: 'It looks like your question is about: verify my identity. [PLACEHOLDER resolution flow for ''verify_my_identity'' - link the help-centre article / in-app action here.]'
+  verify_source_of_funds: 'It looks like your question is about: verify source of funds. [PLACEHOLDER resolution flow for ''verify_source_of_funds'' - link the help-centre article / in-app action here.]'
+  verify_top_up: 'It looks like your question is about: verify top up. [PLACEHOLDER resolution flow for ''verify_top_up'' - link the help-centre article / in-app action here.]'
+  virtual_card_not_working: 'It looks like your question is about: virtual card not working. [PLACEHOLDER resolution flow for ''virtual_card_not_working'' - link the help-centre article / in-app action
+    here.]'
+  visa_or_mastercard: 'It looks like your question is about: visa or mastercard. [PLACEHOLDER resolution flow for ''visa_or_mastercard'' - link the help-centre article / in-app action here.]'
+  why_verify_identity: 'It looks like your question is about: why verify identity. [PLACEHOLDER resolution flow for ''why_verify_identity'' - link the help-centre article / in-app action here.]'
+  wrong_amount_of_cash_received: 'It looks like your question is about: wrong amount of cash received. [PLACEHOLDER resolution flow for ''wrong_amount_of_cash_received'' - link the help-centre article /
+    in-app action here.]'
+  wrong_exchange_rate_for_cash_withdrawal: 'It looks like your question is about: wrong exchange rate for cash withdrawal. [PLACEHOLDER resolution flow for ''wrong_exchange_rate_for_cash_withdrawal'' -
+    link the help-centre article / in-app action here.]'
