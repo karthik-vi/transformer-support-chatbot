@@ -1,0 +1,266 @@
+{
+  "data": "Banking77 (PolyAI, CC BY 4.0)",
+  "n_fit": 9002,
+  "n_val": 1001,
+  "n_test": 3080,
+  "seed": 0,
+  "tfidf_logreg": {
+    "model": "tfidf_logreg",
+    "accuracy": 0.8906,
+    "macro_f1": 0.8912,
+    "threshold": 0.58,
+    "auto_answer_rate": 0.7182,
+    "auto_resolved_correct_rate": 0.6994,
+    "wrong_answer_rate": 0.0188,
+    "escalation_rate": 0.2818,
+    "precision_when_answering": 0.9738,
+    "train_s": 33.6
+  },
+  "transformer_train_s": 5646.3,
+  "transformer_history": [
+    {
+      "epoch": 0,
+      "train_loss": 2.8769174246649243,
+      "epoch_s": 1608.8,
+      "val_acc": 0.7832167832167832
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.8708197623656819,
+      "epoch_s": 1756.6,
+      "val_acc": 0.8831168831168831
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4274937062892774,
+      "epoch_s": 2162.2,
+      "val_acc": 0.8951048951048951
+    }
+  ],
+  "transformer_test_infer_ms_per_query": 26.24,
+  "transformer": {
+    "model": "distilbert-base-uncased",
+    "accuracy": 0.899,
+    "macro_f1": 0.898,
+    "threshold": 0.68,
+    "auto_answer_rate": 0.763,
+    "auto_resolved_correct_rate": 0.7458,
+    "wrong_answer_rate": 0.0172,
+    "escalation_rate": 0.237,
+    "precision_when_answering": 0.9774
+  },
+  "transformer_policy_curve_test": [
+    {
+      "threshold": 0.0,
+      "auto_answer_rate": 1.0,
+      "auto_resolved_correct_rate": 0.8990259740259741,
+      "wrong_answer_rate": 0.10097402597402598,
+      "escalation_rate": 0.0,
+      "precision_when_answering": 0.8990259740259741
+    },
+    {
+      "threshold": 0.05,
+      "auto_answer_rate": 1.0,
+      "auto_resolved_correct_rate": 0.8990259740259741,
+      "wrong_answer_rate": 0.10097402597402598,
+      "escalation_rate": 0.0,
+      "precision_when_answering": 0.8990259740259741
+    },
+    {
+      "threshold": 0.1,
+      "auto_answer_rate": 0.9987012987012988,
+      "auto_resolved_correct_rate": 0.8987012987012987,
+      "wrong_answer_rate": 0.1,
+      "escalation_rate": 0.0012987012987012987,
+      "precision_when_answering": 0.8998699609882965
+    },
+    {
+      "threshold": 0.15,
+      "auto_answer_rate": 0.9967532467532467,
+      "auto_resolved_correct_rate": 0.8983766233766234,
+      "wrong_answer_rate": 0.09837662337662338,
+      "escalation_rate": 0.003246753246753247,
+      "precision_when_answering": 0.9013029315960912
+    },
+    {
+      "threshold": 0.2,
+      "auto_answer_rate": 0.9915584415584415,
+      "auto_resolved_correct_rate": 0.8964285714285715,
+      "wrong_answer_rate": 0.09512987012987013,
+      "escalation_rate": 0.008441558441558441,
+      "precision_when_answering": 0.904060248853962
+    },
+    {
+      "threshold": 0.25,
+      "auto_answer_rate": 0.9840909090909091,
+      "auto_resolved_correct_rate": 0.8944805194805194,
+      "wrong_answer_rate": 0.08961038961038961,
+      "escalation_rate": 0.015909090909090907,
+      "precision_when_answering": 0.908940943582976
+    },
+    {
+      "threshold": 0.3,
+      "auto_answer_rate": 0.9681818181818181,
+      "auto_resolved_correct_rate": 0.8896103896103896,
+      "wrong_answer_rate": 0.07857142857142857,
+      "escalation_rate": 0.031818181818181815,
+      "precision_when_answering": 0.9188464118041583
+    },
+    {
+      "threshold": 0.35,
+      "auto_answer_rate": 0.9538961038961039,
+      "auto_resolved_correct_rate": 0.8827922077922078,
+      "wrong_answer_rate": 0.0711038961038961,
+      "escalation_rate": 0.046103896103896105,
+      "precision_when_answering": 0.9254594962559565
+    },
+    {
+      "threshold": 0.4,
+      "auto_answer_rate": 0.9376623376623376,
+      "auto_resolved_correct_rate": 0.8743506493506493,
+      "wrong_answer_rate": 0.0633116883116883,
+      "escalation_rate": 0.06233766233766234,
+      "precision_when_answering": 0.9324792243767313
+    },
+    {
+      "threshold": 0.45,
+      "auto_answer_rate": 0.9146103896103897,
+      "auto_resolved_correct_rate": 0.8587662337662337,
+      "wrong_answer_rate": 0.05584415584415584,
+      "escalation_rate": 0.08538961038961039,
+      "precision_when_answering": 0.9389421370252041
+    },
+    {
+      "threshold": 0.5,
+      "auto_answer_rate": 0.874025974025974,
+      "auto_resolved_correct_rate": 0.8295454545454546,
+      "wrong_answer_rate": 0.04448051948051948,
+      "escalation_rate": 0.12597402597402596,
+      "precision_when_answering": 0.9491084695393759
+    },
+    {
+      "threshold": 0.55,
+      "auto_answer_rate": 0.8461038961038961,
+      "auto_resolved_correct_rate": 0.8077922077922078,
+      "wrong_answer_rate": 0.03831168831168831,
+      "escalation_rate": 0.1538961038961039,
+      "precision_when_answering": 0.9547198772064467
+    },
+    {
+      "threshold": 0.6,
+      "auto_answer_rate": 0.8185064935064935,
+      "auto_resolved_correct_rate": 0.7892857142857143,
+      "wrong_answer_rate": 0.02922077922077922,
+      "escalation_rate": 0.18149350649350648,
+      "precision_when_answering": 0.9642998809996033
+    },
+    {
+      "threshold": 0.65,
+      "auto_answer_rate": 0.785064935064935,
+      "auto_resolved_correct_rate": 0.7649350649350649,
+      "wrong_answer_rate": 0.02012987012987013,
+      "escalation_rate": 0.21493506493506492,
+      "precision_when_answering": 0.9743589743589743
+    },
+    {
+      "threshold": 0.7,
+      "auto_answer_rate": 0.7435064935064936,
+      "auto_resolved_correct_rate": 0.7285714285714285,
+      "wrong_answer_rate": 0.014935064935064935,
+      "escalation_rate": 0.2564935064935065,
+      "precision_when_answering": 0.9799126637554585
+    },
+    {
+      "threshold": 0.75,
+      "auto_answer_rate": 0.6896103896103896,
+      "auto_resolved_correct_rate": 0.6792207792207792,
+      "wrong_answer_rate": 0.01038961038961039,
+      "escalation_rate": 0.3103896103896104,
+      "precision_when_answering": 0.9849340866290018
+    },
+    {
+      "threshold": 0.8,
+      "auto_answer_rate": 0.6006493506493507,
+      "auto_resolved_correct_rate": 0.5951298701298702,
+      "wrong_answer_rate": 0.00551948051948052,
+      "escalation_rate": 0.39935064935064934,
+      "precision_when_answering": 0.9908108108108108
+    },
+    {
+      "threshold": 0.85,
+      "auto_answer_rate": 0.4941558441558442,
+      "auto_resolved_correct_rate": 0.49123376623376624,
+      "wrong_answer_rate": 0.002922077922077922,
+      "escalation_rate": 0.5058441558441559,
+      "precision_when_answering": 0.9940867279894875
+    },
+    {
+      "threshold": 0.9,
+      "auto_answer_rate": 0.32045454545454544,
+      "auto_resolved_correct_rate": 0.3198051948051948,
+      "wrong_answer_rate": 0.0006493506493506494,
+      "escalation_rate": 0.6795454545454546,
+      "precision_when_answering": 0.9979736575481256
+    },
+    {
+      "threshold": 0.95,
+      "auto_answer_rate": 0.01818181818181818,
+      "auto_resolved_correct_rate": 0.01818181818181818,
+      "wrong_answer_rate": 0.0,
+      "escalation_rate": 0.9818181818181818,
+      "precision_when_answering": 1.0
+    }
+  ],
+  "top_confusions_test": [
+    {
+      "true": "virtual_card_not_working",
+      "pred": "get_disposable_virtual_card",
+      "n": 15
+    },
+    {
+      "true": "why_verify_identity",
+      "pred": "verify_my_identity",
+      "n": 12
+    },
+    {
+      "true": "fiat_currency_support",
+      "pred": "exchange_via_app",
+      "n": 7
+    },
+    {
+      "true": "pending_transfer",
+      "pred": "transfer_timing",
+      "n": 7
+    },
+    {
+      "true": "virtual_card_not_working",
+      "pred": "getting_virtual_card",
+      "n": 7
+    },
+    {
+      "true": "declined_transfer",
+      "pred": "declined_card_payment",
+      "n": 6
+    },
+    {
+      "true": "verify_my_identity",
+      "pred": "why_verify_identity",
+      "n": 6
+    },
+    {
+      "true": "pending_transfer",
+      "pred": "balance_not_updated_after_bank_transfer",
+      "n": 5
+    },
+    {
+      "true": "card_swallowed",
+      "pred": "declined_cash_withdrawal",
+      "n": 5
+    },
+    {
+      "true": "get_disposable_virtual_card",
+      "pred": "getting_virtual_card",
+      "n": 5
+    }
+  ]
+}

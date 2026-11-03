@@ -1,0 +1,7 @@
+{'model': 'tfidf_logreg', 'accuracy': 0.8906, 'macro_f1': 0.8912, 'threshold': 0.58, 'auto_answer_rate': 0.7182, 'auto_resolved_correct_rate': 0.6994, 'wrong_answer_rate': 0.0188, 'escalation_rate': 0.2818, 'precision_when_answering': 0.9738, 'train_s': 33.6}
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+{'epoch': 0, 'train_loss': 2.8769174246649243, 'epoch_s': 1608.8, 'val_acc': 0.7832167832167832}
+{'epoch': 1, 'train_loss': 0.8708197623656819, 'epoch_s': 1756.6, 'val_acc': 0.8831168831168831}
+{'epoch': 2, 'train_loss': 0.4274937062892774, 'epoch_s': 2162.2, 'val_acc': 0.8951048951048951}
+{'model': 'distilbert-base-uncased', 'accuracy': 0.899, 'macro_f1': 0.898, 'threshold': 0.68, 'auto_answer_rate': 0.763, 'auto_resolved_correct_rate': 0.7458, 'wrong_answer_rate': 0.0172, 'escalation_rate': 0.237, 'precision_when_answering': 0.9774}
